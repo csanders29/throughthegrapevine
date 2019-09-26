@@ -1,5 +1,48 @@
-#start, about {
-	background-color: lightgreen;
-	size: 100px;
+.button {
+	  background-color: #4f2e09;
+	  border: 1px solid black;
+	  border-radius: 50px;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  display: inline-block;
+	  font-size: 70px;
+	  margin: 25px 25px;
+	  cursor: pointer;
+	}
+	
+form {
+	height: 30px;
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+}
+	
+body {
+	display: block;
+	min-height: 605px;
+	background-size: 70%;
+	background-image: url("titlescreen.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+	font-family: pixles;
+	
+}
+
+div {
+	visibility: hidden;
+	text-align: center;
+	width: 80%;
+	height: 350px;
+	margin: 50px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+main {
+	margin: auto;
+	width: 70%;
+	text-align:center;
 }
 
