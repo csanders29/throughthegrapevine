@@ -1,0 +1,154 @@
+body{
+    background-color: black;   
+}
+#clue{
+    font-weight: bold;
+}
+.title{
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+}
+
+#screen{
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation-name: title;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    font-family: "Amatic SC";
+}
+@keyframes title{
+    0%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+#town{
+    background: url("./town.jpg");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#rima{
+    background: url("./forestnight.png");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+#silva{
+    background: url("./mountainlake.png");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dialogue{
+    position: absolute;
+    top: 70%;
+    left:20%;
+    background-color: gray;
+    height: 100px;
+    width: 60%;
+    border: 5px solid black;
+    z-index: 10;
+    text-align: center;
+    overflow: hidden;
+   
+}
+div{
+    
+     font-family: "buda";
+}
+#choice{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-family: "patrick hand sc";
+    font-size: 15px;
+}
+button{
+    font-family: 'Patrick Hand SC';
+    font-size: 15px;
+}
+#choice:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#return{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-family: "patrick hand sc";
+    font-size: 15px;
+}
+#return:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#t1{
+
+   padding-top: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 10px;
+   animation-name: dialogue;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-play-state:paused;
+    animation-fill-mode: forwards;
+}
+#t1:hover{
+    animation-play-state: running;
+
+}
+@keyframes dialogue{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-75%);
+    }
+
+}

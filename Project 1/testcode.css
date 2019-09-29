@@ -1,0 +1,86 @@
+#dialogue{
+    position: absolute;
+    top: 50%;
+    left:20%;
+    background-color: gray;
+    height: 100px;
+    width: 60%;
+    border: 5px solid black;
+    z-index: 10;
+     text-align: center;
+    /* overflow: hidden;*/
+    
+    }
+    .title{
+        font-size: 50pt;
+        color: white;
+        text-align: center;
+        
+        
+    }
+    #screen{
+        
+        background: black;
+        height: 100%;
+        width: 100%;
+        z-index: 50;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        animation-name: title;
+        animation-delay: 5s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes title{
+        0%{
+            visibility: visible;
+        }
+        100%{
+            visibility: hidden;
+        }
+    }
+    #choice{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor:pointer;
+        
+        
+    }
+    #return{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor:pointer;
+        
+    }
+    #t1{
+  
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        animation-name: dialogue;
+         animation-duration: 30s;
+         animation-iteration-count: infinite;
+         animation-play-state:paused;
+         animation-fill-mode: forwards;
+     }
+     #t1:hover{
+         animation-play-state: running;
+     
+     }
+     @keyframes dialogue{
+         0%{
+             transform: translateY(0%);
+         }
+         50%{
+             transform: translateY(-50%);
+         }
+     
+     }

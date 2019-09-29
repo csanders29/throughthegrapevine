@@ -1,0 +1,137 @@
+body{
+   background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#instruct{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left:10%;
+    height: 100px;
+    width: 200px; 
+    
+}
+#warning{
+    float: right;
+    position: absolute;
+    top: 35%;
+    right:10%;
+    height: 100px;
+    width: 200px;
+    font-family: "Amatic SC";
+}
+.howto, .warn{
+    padding: 25;
+    color: white;
+    font-size: 25pt;
+    font-family: "Amatic SC";
+}
+#bg{
+    background: url("./ttgbg.png");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height:800;
+    width: 800;
+}
+#darkforest{
+    position: absolute;
+    top: 178;
+    left: 182;
+    right: 0;
+    bottom: 0;
+    width: 180;
+    height: 155;
+    transition: all 0.3s ease 0s;
+}
+.area:hover{
+      transform: scale(1.2);
+}
+#forest{
+  
+    height: 256;
+    width: 245;
+    position: absolute;
+    top: 447;
+    left: 443;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+
+#mountain{
+    height: 136;
+    width: 160;
+    position: absolute;
+    top: 108;
+    left: 377;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+#lake{
+    height: 722;
+    width: 722;
+    position: absolute;
+    top:333;
+    left: 236;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+    width: 283;
+    height: 125;   
+}
+
+#town{
+    
+    height: 107;
+    width: 182;
+    display: block;
+    position: absolute;
+    top: 349;
+    left: 592;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+#home{
+    height:38;
+    width: 42;
+    position: absolute;
+    top: 619;
+    left: 352;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+#items{
+    position: absolute;
+    top: 15;
+    left: 15;
+    font-family: "Amatic SC";
+    z-index: 20;
+    
+}
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20pt;
+   
+}
+h4{
+    
+    color: white;
+    font-size: 20pt;
+    padding: 0;
+    margin: 0;
+}
+

@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    
+     overflow: hidden;
+ }
+ #bg{
+    background: url("./winscreen.gif");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height:375;
+       width: 500;
+}
+.congrats{
+    padding: 25;
+    color: white;
+    font-size: 25pt;
+    font-family: "Amatic SC";
+
+}
+#declare{
+    
+    position: absolute;
+    top: 10px;
+    left: 26%;
+    height: 40px;
+    width: 100%; 
+    z-index: 10;
+    
+}
+#return{
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    height: 40px;
+    width: 100%; 
+    z-index: 10;
+   
+}
+.thanks{
+    padding: 5px;
+    color: white;
+    font-size: 25pt;
+    font-family: "Amatic SC";
+    
+
+}
+.exit{
+    padding: 5px;
+    color: white;
+    font-size: 25pt;
+    font-family: "Amatic SC";
+}
