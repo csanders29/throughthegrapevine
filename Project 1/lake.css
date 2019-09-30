@@ -1,11 +1,7 @@
 body {
 	background-size: 1369px 670px;
 	background-repeat: no-repeat;
-	background-image: url("http://codd.cs.gsu.edu/~csanders29/mountain.png");
-}
-
-hr {
-	display: none;
+	background-image: url("http://codd.cs.gsu.edu/~csanders29/mountainforestlake.png");
 }
 
 .title{
@@ -36,9 +32,6 @@ hr {
 	font-weight: bold;
 }
 @keyframes title{
-	0%{
-        visibility: visible;
-    }
     0%{
         visibility: visible;
     }
@@ -47,7 +40,7 @@ hr {
     }
 }
 
-#mountain{
+#lake{
     background-position: center;
     position: absolute;
     top: 0;
@@ -105,9 +98,7 @@ hr {
 
 }
 @keyframes dialogue{
-	0%{
-        transform: translateY(0%);
-    }
+	
     0%{
         transform: translateY(0%);
     }

@@ -8,7 +8,7 @@ body{
     float: left;
     position: absolute;
     top: 35%;
-    left:10%;
+    left:5%;
     height: 100px;
     width: 200px; 
     
@@ -17,7 +17,7 @@ body{
     float: right;
     position: absolute;
     top: 35%;
-    right:10%;
+    right:5%;
     height: 100px;
     width: 200px;
     font-family: "Amatic SC";

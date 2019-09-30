@@ -1,0 +1,96 @@
+
+body{
+    background-color: black;
+}
+
+
+	
+#start {
+	  background-color: #4f2e09;
+	  border: 1px solid black;
+	  border-radius: 50px;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  display: inline-block;
+	  font-size: 70px;
+	  margin: 25px 25px;
+	  cursor: pointer;
+	  transition: all 0.3s ease;
+	  animation: animatedButton 15s linear;
+	  position: absolute;
+	  top: 70%;
+	  left: 32%;
+	  font-family: "Amatic SC";
+	  font-weight: bold;
+	}
+	
+#about {
+	  background-color: #4f2e09;
+	  border: 1px solid black;
+	  border-radius: 50px;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  display: inline-block;
+	  font-size: 70px;
+	  margin: 25px 25px;
+	  cursor: pointer;
+	  transition: all 0.3s ease;
+	  animation: animatedButton 15s linear;
+	  position: absolute;
+	  top: 70%;
+	  left: 52%;
+	  font-family: "Amatic SC";
+	  font-weight: bold;
+	}
+
+   
+#intro{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    animation-name: story;
+    text-align: center;
+    animation-duration: 10s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    z-index: 10;
+    margin: 0;
+    padding-top: 15%;
+	font-size: 16pt;
+	letter-spacing: 1px;
+	line-height: 150%;
+	font-weight: bold;
+	font-family: "Amatic SC";
+}
+@keyframes story{
+    0%{
+        top:0;
+    
+    }
+    100%{
+        top: 800px;
+    }
+}
+#title{
+    background: url("./titlescreen.png");
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}

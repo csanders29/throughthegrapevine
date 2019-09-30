@@ -55,7 +55,17 @@ body{
 }
 .exit{
     padding: 5px;
+    padding-top: 0px;
     color: white;
     font-size: 25pt;
     font-family: "Amatic SC";
+}
+.learn{
+    padding: 5px;
+    color: white;
+    font-size: 25pt;
+    font-family: "Amatic SC";
+}
+a{
+    color: white;
 }

@@ -1,0 +1,34 @@
+html {
+	background-color: #ff948c;
+	font-family: "Amatic SC";
+}
+
+header {
+	margin: 2em;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+	font-size: 16pt;
+	text-align: center;
+}
+
+section {
+	font-weight: bold;
+}
+dt{
+	position: relative;
+	font-weight: bold;
+	
+}
+dd{
+	/*float: right;*/
+	position: relative;
+	
+	
+}
+caption{
+	font-weight: bold;
+}
